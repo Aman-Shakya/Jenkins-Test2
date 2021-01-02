@@ -5,6 +5,8 @@ trigger TriggerAccount on Account (After insert,Before Update,After Update) {
            // TriggerClassAccount.San(Trigger.new);
            //VikasSirQuestion1.disp(Trigger.New);
         }
+        
+        //phoolchandra
     }
     if(Trigger.isUpdate){
         if(Trigger.isBefore){
